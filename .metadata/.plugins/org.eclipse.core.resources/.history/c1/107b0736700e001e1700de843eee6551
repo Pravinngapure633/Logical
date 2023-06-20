@@ -1,0 +1,22 @@
+package A;
+
+import java.util.function.Predicate;
+
+@FunctionalInterface
+interface X{
+	public abstract void m1();
+}
+@FunctionalInterface
+interface Y{
+	public abstract void m1();
+}
+public class A {
+
+	
+	public static void main(String[] args) {
+		
+		Predicate<Integer> p=(i)->i>10;
+		
+		p.test(10);
+	}
+}

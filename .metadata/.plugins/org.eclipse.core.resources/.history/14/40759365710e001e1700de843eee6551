@@ -1,0 +1,24 @@
+package A;
+
+import java.util.function.Predicate;
+
+@FunctionalInterface
+interface X{
+	public abstract void m1(int i);
+}
+@FunctionalInterface
+interface Y{
+	public abstract void m1(int i);
+}
+public class A {
+
+
+	
+	
+	public static void main(String[] args) {
+		
+	 A a= {(i)->i+i
+			 return i;};	
+		
+	}
+}

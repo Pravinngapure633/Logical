@@ -1,0 +1,33 @@
+package A;
+
+import java.util.function.Predicate;
+
+@FunctionalInterface
+interface X{
+	public default void m1() {
+		System.out.println("X");
+	}
+}
+@FunctionalInterface
+interface Y{
+	public default void m1() {
+		System.out.println("Y");
+	}
+}
+public class A implements X,Y{
+
+	@Override
+	public void m1() {
+		System.out.println("X");
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		=(i)->i>10;
+		
+		p.test(10);
+	}
+}

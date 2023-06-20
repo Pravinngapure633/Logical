@@ -1,0 +1,24 @@
+
+package A;
+
+import java.util.Scanner;
+
+public class EvenAndOdd {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		
+		for(int i=1;i<=num;i++) {
+			
+			if(num%2==0) {
+				System.out.println("Even Number is"+num);
+			}
+			else {
+				System.out.println("Number is Odd :"+num);
+			}
+		}
+				
+	}
+}

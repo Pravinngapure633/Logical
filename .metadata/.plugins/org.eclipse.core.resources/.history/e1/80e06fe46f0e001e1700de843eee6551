@@ -1,0 +1,12 @@
+package A;
+
+interface X{
+	public abstract void m1();
+}
+
+interface Y{
+	public abstract void m1();
+}
+public class A {
+
+}

@@ -1,0 +1,28 @@
+package A;
+
+import java.util.function.Predicate;
+
+
+interface X{
+	public default void m1() {
+		System.out.println("X");
+	}
+}
+interface Y{
+	public default void m1() {
+		System.out.println("Y");
+	}
+}
+public class A implements X,Y{
+
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		=(i)->i>10;
+		
+		p.test(10);
+	}
+}

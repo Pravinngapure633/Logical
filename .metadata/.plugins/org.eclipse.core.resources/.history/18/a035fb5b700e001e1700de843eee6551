@@ -1,0 +1,33 @@
+package A;
+
+import java.util.function.Predicate;
+
+@FunctionalInterface
+interface X{
+	public abstract void m1();
+}
+@FunctionalInterface
+interface Y{
+	public abstract void m1(int i);
+}
+public class A implements X,Y{
+
+	@Override
+	public void m1() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void m1(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Predicate<Integer> p=(i)->i>10;
+		
+		p.test(10);
+	}
+}
